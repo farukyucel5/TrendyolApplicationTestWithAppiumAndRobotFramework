@@ -7,3 +7,5 @@ appPackage = 'trendyol.com'
 appActivity = 'com.trendyol.common.splash.impl.ui.SplashActivity'
 timeout = '30'
 
+text = 'Kulaklık'
+
