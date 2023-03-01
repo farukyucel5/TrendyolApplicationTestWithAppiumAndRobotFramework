@@ -6,9 +6,6 @@ Library     AppiumLibrary
 
 
 
-
-
-
 *** Keywords ***
 initialize_the_application
     open application    ${server}
@@ -28,7 +25,14 @@ Type_in_the_product_you_search_and_hit_enter
 Verify_that_products_listed_contain_the_keyword_passed_in
     wait until element is visible   ${viewElemet}   30s
     page should contain element   ${viewElemet}
+    swipe  514    600   514   200   1000
     page should contain text    Kulaklık
+    swipe  514    600   514   200   1000
+    swipe  514    600   514   200   1000
+    page should contain text  Kulaklık
+
+
+
 
 
 
