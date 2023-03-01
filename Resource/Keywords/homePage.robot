@@ -2,6 +2,8 @@
 Variables       ../Locators/locators.py
 Variables       ../TestData/testData.py
 Library       ../../Library/ilkKutuphanem.py
+Library     AppiumLibrary
+
 
 
 
@@ -27,6 +29,12 @@ Verify_that_products_listed_contain_the_keyword_passed_in
     wait until element is visible   ${viewElemet}   30s
     page should contain element   ${viewElemet}
     page should contain text    Kulaklık
+
+
+
+
+
+
 
 
 
