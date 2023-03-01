@@ -2,7 +2,6 @@
 Resource    ../Resource/Keywords/homePage.robot
 Library     AppiumLibrary
 
-
 *** Test Cases ***
 search_test
     initialize_the_application
