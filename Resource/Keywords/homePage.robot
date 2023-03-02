@@ -35,7 +35,7 @@ SwipeDown
     swipe  514    600   514   200   1000
     ${status}      run keyword and return status    page should not contain element    ${scrollElement}
     run keyword if    ${status} == False               addToCartAndVerifySuccess
-    run keyword if    ${status} == True                Verify_that_products_listed_contain_the_keyword_passed_in
+    run keyword if    ${status} == True                Verify the specified product is listed if yes add to cart and check
 
 
 addToCartAndVerifySuccess
