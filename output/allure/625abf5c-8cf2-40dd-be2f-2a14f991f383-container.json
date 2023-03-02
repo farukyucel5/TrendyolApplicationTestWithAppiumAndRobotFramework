@@ -1,0 +1,1 @@
+{"uuid": "eb44c15b-a580-46ce-b232-d1631ae04ce2", "children": ["c228a27e-e538-4ebb-8b60-22216c52610b"], "afters": [{"name": "AppiumLibrary.Close Application", "status": "passed", "statusDetails": {"message": "Page should not have contained element '//android.widget.TextView[@text ='Universal P68 Bluetooth Kablosuz Stereo Kulaklık - Siyah']'"}, "stop": 1677756197991}]}

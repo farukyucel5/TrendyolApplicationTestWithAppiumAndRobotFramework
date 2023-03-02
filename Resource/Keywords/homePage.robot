@@ -20,7 +20,7 @@ Open the application
 Type in the product you search and hit enter
     wait until element is visible    ${searchBar}    30s
     click element  ${searchBar}
-    input text    ${searchBar}  kulaklık
+    input text    ${searchBar}   ${text}
     press keycode   84
     #it will hit the search button
 Verify the specified product is listed if yes add to cart and check
